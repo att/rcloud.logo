@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns='http://www.w3.org/2000/svg' width='30px' height='30px'>
+  <circle fill='#999' cx='5' cy='5' r='3' />
+  <circle fill='#999' cx='15' cy='5' r='3' />
+  <circle fill='#999' cx='25' cy='5' r='3' />
+  <circle fill='#999' cx='5' cy='15' r='3' />
+  <circle fill='#999' cx='15' cy='15' r='3' />
+  <circle fill='#999' cx='25' cy='15' r='3' />
+  <circle fill='#999' cx='5' cy='25' r='3' />
+  <circle fill='#999' cx='15' cy='25' r='3' />
+  <circle fill='#999' cx='25' cy='25' r='3' />
+</svg>
