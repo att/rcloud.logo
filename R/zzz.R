@@ -10,5 +10,6 @@ rcloud.logo.caps <- NULL
   }
   rcloud.logo.caps <<- f("rcloud.logo", "rcloud.logo.js")
   if(!is.null(rcloud.logo.caps))
-    rcloud.logo.caps$init(rcloud.get.conf.value('rcloud.deployment'))
+    rcloud.logo.caps$init(rcloud.config('rcloud.deployment'),
+                          rcloud.config('rcloud.deployment.color'))
 }
