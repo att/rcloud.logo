@@ -7,3 +7,4 @@ Description: this adds the logo and lake info to the navbar
 Depends: rcloud.support
 NOTE: --- packages that are not on CRAN/RForge.net *must* be in Suggests! ---
 License: MIT
+RCloud-Extension: gui
