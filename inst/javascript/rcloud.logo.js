@@ -8,7 +8,7 @@ var logo_span = [
 function deploy_span(deployment, color) {
     return ['<span style="position: relative; top: -36px; border-top: 3px solid ' + color + '">',
             '<span style="position:relative; top: 17px; color: #999999; padding: 0; padding-right: 0.5em; font-size: 16px; line-height: 15px" href="#">',
-            '<span style="mask: url(shared.R/rcloud.logo/dots.svg#dots); -webkit-mask: url(shared.R/rcloud.logo/dots.svg) center / contain no-repeat; margin-left: 5px; display: inline-block; position: relative; top: 4px; width: 18px; height: 18px; background-color: ' + color + ';"></span>',
+            '<span style="mask: url(shared.R/rcloud.logo/dots.svg#dots); -webkit-mask: url(shared.R/rcloud.logo/dots.svg) center / contain no-repeat; margin-left: 5px; display: inline-block; position: relative; top: 3px; width: 18px; height: 18px; background-color: ' + color + ';"></span>',
             '&nbsp',
             deployment,
             '</span></span>'].join('');
