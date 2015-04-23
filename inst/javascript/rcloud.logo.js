@@ -2,13 +2,13 @@
 
 var logo_span = [
     '<span style="display: inline-block; overflow: hidden; width: 120; height: 50">',
-    '<img style="position: relative; top: -100px; left: -25px; width: 175px; height: 250px;" src="shared.R/rcloud.logo/RCloud_Color_Vector.svg">',
+    '<img style="position: relative; top: -100px; left: -25px; width: 175px; height: 250px;" src="/shared.R/rcloud.logo/RCloud_Color_Vector.svg">',
     '</span>'].join('');
 
 function deploy_span(deployment, color) {
     return ['<span style="position: relative; top: -36px; border-top: 3px solid ' + color + '">',
             '<span style="position:relative; top: 17px; color: #aaa; padding: 0; padding-right: 0.5em; font-size: 16px; line-height: 15px" href="#">',
-            '<span style="mask: url(shared.R/rcloud.logo/dots.svg#dots); -webkit-mask: url(shared.R/rcloud.logo/dots.svg) center / contain no-repeat; margin-left: 0.5em; display: inline-block; position: relative; top: 3px; width: 18px; height: 18px; background-color: ' + color + ';"></span>',
+            '<span style="mask: url(/shared.R/rcloud.logo/dots.svg#dots); -webkit-mask: url(/shared.R/rcloud.logo/dots.svg) center / contain no-repeat; margin-left: 0.5em; display: inline-block; position: relative; top: 3px; width: 18px; height: 18px; background-color: ' + color + ';"></span>',
             '&nbsp',
             deployment,
             '</span></span>'].join('');
