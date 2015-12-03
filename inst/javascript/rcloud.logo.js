@@ -1,8 +1,8 @@
 ((function() {
 
 var logo_span = [
-    '<span style="display: inline-block; overflow: hidden; width: 120; height: 50">',
-    '<img style="position: relative; top: -100px; left: -25px; width: 175px; height: 250px;" src="/shared.R/rcloud.logo/RCloud_Color_Vector.svg">',
+    '<span style="display: inline-block; overflow: hidden; width: 167; height: 50">',
+    '<img style="position: relative; top: -147px; left: -46px; width: 259px; height: 342px;" src="/shared.R/rcloud.logo/RCloud_Color_Vector.svg">',
     '</span>'].join('');
 
 function deploy_span(deployment, color) {

@@ -1,6 +1,6 @@
 Package: rcloud.logo
 Title: Logo add-on for RCloud
-Version: 0.1
+Version: 0.1.1
 Author: Gordon Woodhull <gordon@research.att.com>
 Maintainer: Gordon Woodhull <gordon@research.att.com>
 Description: this adds the logo and lake info to the navbar
