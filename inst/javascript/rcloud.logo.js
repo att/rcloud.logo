@@ -1,9 +1,11 @@
 ((function() {
 
 var logo_span = [
+    '<a href="/edit.html">',
     '<span style="display: inline-block; overflow: hidden; width: 167; height: 50">',
     '<img style="position: relative; top: -147px; left: -46px; width: 259px; height: 342px;" src="/shared.R/rcloud.logo/RCloud_Color_Vector.svg">',
-    '</span>'].join('');
+    '</span>',
+    '</a>'].join('');
 
 function deploy_span(deployment, color) {
     return ['<span style="position: relative; top: -36px; border-top: 3px solid ' + color + '">',
